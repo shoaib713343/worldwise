@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import styles from "./Message.module.css";
 
 function Message({ message }) {
@@ -6,6 +7,10 @@ function Message({ message }) {
       <span role="img">👋</span> {message}
     </p>
   );
+}
+
+Message.propTypes= {
+message : PropTypes.string,
 }
 
 export default Message;
