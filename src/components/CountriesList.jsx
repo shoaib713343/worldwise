@@ -29,9 +29,5 @@ function CountriesList() {
 }
 
 
-CityList.propTypes = {
-  cities: PropTypes.array,
-  isLoading: PropTypes.bool,
-};
 
 export default CountriesList
