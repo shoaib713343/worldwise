@@ -28,4 +28,10 @@ function CitiesProvider({children}) {
   </CitiesContext.Provider>
 }
 
-export {CitiesContext, CitiesProvider}
+function useCities(){
+    const context = useContext(CitiesContext);
+    if(context===undefined) throw new Error("CitiesContext was used outside the cities provider");
+    
+    return context
+}
+export {useCities, CitiesProvider}
