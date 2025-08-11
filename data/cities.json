@@ -37,27 +37,27 @@
       "id": "98443197"
     },
     {
-      "id": "3611",
-      "cityName": "Loures",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2025-08-11T10:08:07.427Z",
-      "notes": "wfqw",
+      "id": "5307",
+      "cityName": "Castello de la Plana",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2025-08-11T11:29:27.947Z",
+      "notes": "ethte",
       "position": {
-        "lat": "38.82633559229759",
-        "lng": "-9.160537719726564"
+        "lat": "40.02932322770746",
+        "lng": "0.014591217041015627"
       }
     },
     {
-      "id": "20de",
-      "cityName": "Loures",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2025-08-11T10:22:33.369Z",
-      "notes": "efe",
+      "id": "d377",
+      "cityName": "Melikgazi",
+      "country": "Turkiye",
+      "emoji": "🇹🇷",
+      "date": "2025-08-11T11:34:10.085Z",
+      "notes": "eweg",
       "position": {
-        "lat": "38.894773840440905",
-        "lng": "-9.121398925781252"
+        "lat": "38.71980474264239",
+        "lng": "35.55175781250001"
       }
     }
   ]
