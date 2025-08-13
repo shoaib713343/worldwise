@@ -12,6 +12,7 @@ import City from "./components/City.jsx"
 import { useEffect, useState } from "react";
 import Form from "./components/Form.jsx"
 import { CitiesProvider } from "./context/CitiesContext.jsx";
+import { AuthProvider } from "./context/FakeAuthContext.jsx";
 
 
 
@@ -20,6 +21,7 @@ import { CitiesProvider } from "./context/CitiesContext.jsx";
 function App() {
 
   return (
+    <AuthProvider>
     <CitiesProvider>
     <BrowserRouter>
       <Routes>
@@ -38,6 +40,7 @@ function App() {
       </Routes>
     </BrowserRouter>
     </CitiesProvider>
+    </AuthProvider>
   );
 }
 
